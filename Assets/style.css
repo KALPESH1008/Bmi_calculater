@@ -1,0 +1,47 @@
+
+
+.First-container{
+  width: 100%;
+  height: 450px;
+  background-color: #007bff;
+}
+
+.calculator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  font-size: 18px;
+}
+
